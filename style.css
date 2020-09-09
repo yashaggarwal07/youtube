@@ -166,6 +166,7 @@ text-decoration: none;
         display: none;
       }
     }
+   
     @media screen and (max-width: 772px) {
       .detail{
         width: 100%;
@@ -182,5 +183,47 @@ text-decoration: none;
       }
 .side-bar{
   display: none;
+}
+    }
+    @media screen and (max-width: 1272px) {
+      .detail{
+        width: 100%;
+      }
+      .frame{
+        width: 100%;
+      }
+      .para{width: 100%;}
+      .like{
+        margin-left:70%;
+      }
+      .like span{
+        padding: 0%;
+      }
+.side-bar{
+  display: none;
+}
+.side-bars{
+  display: block;
+}
+    }
+    @media screen and (max-width: 1472px) {
+      .detail{
+        width: 100%;
+      }
+      .frame{
+        width: 100%;
+      }
+      .para{width: 100%;}
+      .like{
+        margin-left:70%;
+      }
+      .like span{
+        padding: 0%;
+      }
+.side-bar{
+  display: none;
+}
+.side-bars{
+  display: block;
 }
     }
